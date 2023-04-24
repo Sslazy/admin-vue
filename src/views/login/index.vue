@@ -15,8 +15,8 @@ const loginSwitch = (type) => {
 <template>
   <el-row class="login-container f-center">
     <el-col :lg="12" :md="12" class="left">
-      <p>Admin Vue</p>
-      <p class="text-3xl">基于 Vue 3 和 Vite 的后台管理系统</p>
+      <p class="text-white">Admin Vue</p>
+      <p class="text-3xl text-white">基于 Vue 3 和 Vite 的后台管理系统</p>
     </el-col>
 
     <el-col :lg="12" :md="12" class="right">
@@ -25,14 +25,14 @@ const loginSwitch = (type) => {
       <div class="f-center py-6">
         <span class="line"></span>
         <button
-          class="text-gray-400 mx-2"
+          class="text-white mx-2"
           @click="loginSwitch('account')"
           :class="{ active: selected == 1 }"
         >
           账号密码登录
         </button>
         <button
-          class="text-gray-400 mx-2"
+          class="text-white mx-2"
           @click="loginSwitch('mobile')"
           :class="{ active: selected == 2 }"
         >
@@ -55,7 +55,7 @@ const loginSwitch = (type) => {
 }
 .login-container {
   @apply w-full h-screen;
-  background-image: url('/login_bg.png');
+  background-image: url('../bg.jpg');
   background-size: cover;
 }
 .login-container .left,
