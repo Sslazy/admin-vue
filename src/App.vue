@@ -15,6 +15,9 @@
     </div>
     <button class="m-btn px-8 py-2 mt-2">按钮</button>
   </div>
+  <el-icon size="32" class="text-sky-500">
+    <Edit />
+  </el-icon>
 </template>
 
 <style scoped></style>
