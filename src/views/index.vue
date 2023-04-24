@@ -1,12 +1,9 @@
 <script setup>
-import { ref } from 'vue'
-const msg = ref('测试自动导入')
+const { handleLogout } = useLogout()
 </script>
 
 <template>
-  <div class="bg-sky-600 w-50 h-50 text-white f-center">
-    <p class="text-xl">{{ msg }}</p>
+  <div>
+    <el-button type="primary" @click="handleLogout">登出</el-button>
   </div>
-  <hello></hello>
-  <el-empty description="description" />
 </template>
