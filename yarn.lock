@@ -196,6 +196,16 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@ctrl/tinycolor@^3.4.1":
+  version "3.6.0"
+  resolved "https://registry.npmmirror.com/@ctrl/tinycolor/-/tinycolor-3.6.0.tgz"
+  integrity sha512-/Z3l6pXthq0JvMYdUFyX9j0MaCltlIn6mfh9jLyQwg5aPKxkyNa0PTHtU1AlFXLNk55ZuAeJRcpvq+tmLfKmaQ==
+
+"@element-plus/icons-vue@^2.0.6":
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/@element-plus/icons-vue/-/icons-vue-2.1.0.tgz"
+  integrity sha512-PSBn3elNoanENc1vnCfh+3WA9fimRC7n+fWkf3rE5jvv+aBohNHABC/KAR5KWPecxWxDTVT1ERpRbOMRcOV/vA==
+
 "@esbuild/win32-x64@0.17.18":
   version "0.17.18"
   resolved "https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.17.18.tgz"
@@ -232,6 +242,18 @@
   version "8.39.0"
   resolved "https://registry.npmmirror.com/@eslint/js/-/js-8.39.0.tgz"
   integrity sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==
+
+"@floating-ui/core@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.npmmirror.com/@floating-ui/core/-/core-1.2.6.tgz"
+  integrity sha512-EvYTiXet5XqweYGClEmpu3BoxmsQ4hkj3QaYA6qEnigCWffTP3vNRwBReTdrwDwo7OoJ3wM8Uoe9Uk4n+d4hfg==
+
+"@floating-ui/dom@^1.0.1":
+  version "1.2.6"
+  resolved "https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.2.6.tgz"
+  integrity sha512-02vxFDuvuVPs22iJICacezYJyf7zwwOCWkPNkWNBr1U0Qt1cKFYzWvxts0AmqcOQGwt/3KJWcWIgtbUU38keyw==
+  dependencies:
+    "@floating-ui/core" "^1.2.6"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -291,6 +313,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@popperjs/core@npm:@sxzz/popperjs-es@^2.11.7":
+  version "2.11.7"
+  resolved "https://registry.npmmirror.com/@sxzz/popperjs-es/-/popperjs-es-2.11.7.tgz"
+  integrity sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==
+
 "@rushstack/eslint-patch@^1.2.0":
   version "1.2.0"
   resolved "https://registry.npmmirror.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
@@ -316,6 +343,18 @@
   resolved "https://registry.npmmirror.com/@tsconfig/node16/-/node16-1.0.3.tgz"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
+"@types/lodash-es@*", "@types/lodash-es@^4.17.6":
+  version "4.17.7"
+  resolved "https://registry.npmmirror.com/@types/lodash-es/-/lodash-es-4.17.7.tgz"
+  integrity sha512-z0ptr6UI10VlU6l5MYhGwS4mC8DZyYer2mCoyysZtSF7p26zOX8UpbrV0YpNYLGS8K4PUFIyEr62IMFFjveSiQ==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*", "@types/lodash@^4.14.182":
+  version "4.14.194"
+  resolved "https://registry.npmmirror.com/@types/lodash/-/lodash-4.14.194.tgz"
+  integrity sha512-r22s9tAS7imvBt2lyHC9B8AGwWnXaYb1tY09oyLkXDs4vArpYJzw09nj8MLx5VfciBPGIb+ZwG0ssYnEPJxn/g==
+
 "@types/minimist@^1.2.0":
   version "1.2.2"
   resolved "https://registry.npmmirror.com/@types/minimist/-/minimist-1.2.2.tgz"
@@ -330,6 +369,11 @@
   version "2.4.1"
   resolved "https://registry.npmmirror.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
+
+"@types/web-bluetooth@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz"
+  integrity sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==
 
 "@vitejs/plugin-vue@^4.0.0":
   version "4.1.0"
@@ -439,6 +483,28 @@
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.47.tgz"
   integrity sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==
 
+"@vueuse/core@^9.1.0":
+  version "9.13.0"
+  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.13.0.tgz"
+  integrity sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "9.13.0"
+    "@vueuse/shared" "9.13.0"
+    vue-demi "*"
+
+"@vueuse/metadata@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.13.0.tgz"
+  integrity sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==
+
+"@vueuse/shared@9.13.0":
+  version "9.13.0"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/-/shared-9.13.0.tgz"
+  integrity sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==
+  dependencies:
+    vue-demi "*"
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.npmmirror.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz"
@@ -527,6 +593,11 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/arrify/-/arrify-1.0.1.tgz"
   integrity sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==
+
+async-validator@^4.2.5:
+  version "4.2.5"
+  resolved "https://registry.npmmirror.com/async-validator/-/async-validator-4.2.5.tgz"
+  integrity sha512-7HhHjtERjqlNbZtqNqy2rckN/SpOOlmDliet+lP7k+eKZEjPk3DgyeU9lIXLdeLz0uBbbVp+9Qdow9wJWgwwfg==
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -739,6 +810,11 @@ dargs@^7.0.0:
   resolved "https://registry.npmmirror.com/dargs/-/dargs-7.0.0.tgz"
   integrity sha512-2iy1EkLdlBzQGvbweYRFxmFath8+K7+AKB0TlhHWkNuH+TmovaMH/Wp7V7R4u7f4SnX3OgLsU9t1NI9ioDnUpg==
 
+dayjs@^1.11.3:
+  version "1.11.7"
+  resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.7.tgz"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
+
 debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz"
@@ -788,6 +864,27 @@ editor@1.0.0:
   resolved "https://registry.npmmirror.com/editor/-/editor-1.0.0.tgz"
   integrity sha512-SoRmbGStwNYHgKfjOrX2L0mUvp9bUVv0uPppZSOMAntEbcFtoC3MKF5b3T6HQPXKIV+QGY3xPO3JK5it5lVkuw==
 
+element-plus@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.npmmirror.com/element-plus/-/element-plus-2.3.4.tgz"
+  integrity sha512-SQr0J9z7N4z48WYk/l9NE2tizl8Q7j2OhqlpTc42k4pGncry3+rVX6dsmcsglFynn6vt3NzYxWJqmLFyDKQq+g==
+  dependencies:
+    "@ctrl/tinycolor" "^3.4.1"
+    "@element-plus/icons-vue" "^2.0.6"
+    "@floating-ui/dom" "^1.0.1"
+    "@popperjs/core" "npm:@sxzz/popperjs-es@^2.11.7"
+    "@types/lodash" "^4.14.182"
+    "@types/lodash-es" "^4.17.6"
+    "@vueuse/core" "^9.1.0"
+    async-validator "^4.2.5"
+    dayjs "^1.11.3"
+    escape-html "^1.0.3"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    lodash-unified "^1.0.2"
+    memoize-one "^6.0.0"
+    normalize-wheel-es "^1.2.0"
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-8.0.0.tgz"
@@ -832,6 +929,11 @@ escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/escalade/-/escalade-3.1.1.tgz"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+escape-html@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmmirror.com/escape-html/-/escape-html-1.0.3.tgz"
+  integrity sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -1417,6 +1519,16 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash-es@*, lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
+lodash-unified@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.npmmirror.com/lodash-unified/-/lodash-unified-1.0.3.tgz"
+  integrity sha512-WK9qSozxXOD7ZJQlpSqOT+om2ZfcT4yO+03FuzAHD0wF6S0l0090LRPDx3vhTTLZ8cFKpBn+IOcVXK6qOcIlfQ==
+
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmmirror.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz"
@@ -1467,7 +1579,7 @@ lodash.upperfirst@^4.3.1:
   resolved "https://registry.npmmirror.com/lodash.upperfirst/-/lodash.upperfirst-4.3.1.tgz"
   integrity sha512-sReKOYJIJf74dhJONhU4e0/shzi1trVbSWDOhKYE5XV2O+H7Sb2Dihwuc7xWxVl+DgFPyTqIN3zMfT9cq5iWDg==
 
-lodash@^4.17.12, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21:
+lodash@*, lodash@^4.17.12, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -1500,6 +1612,11 @@ map-obj@^4.0.0:
   version "4.3.0"
   resolved "https://registry.npmmirror.com/map-obj/-/map-obj-4.3.0.tgz"
   integrity sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==
+
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/memoize-one/-/memoize-one-6.0.0.tgz"
+  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
 
 meow@^8.0.0:
   version "8.1.2"
@@ -1605,6 +1722,11 @@ normalize-package-data@^3.0.0:
     is-core-module "^2.5.0"
     semver "^7.3.4"
     validate-npm-package-license "^3.0.1"
+
+normalize-wheel-es@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmmirror.com/normalize-wheel-es/-/normalize-wheel-es-1.2.0.tgz"
+  integrity sha512-Wj7+EJQ8mSuXr2iWfnujrimU35R2W4FAErEyTmJoJ7ucwTn2hOUSsRehMb5RSYkxXGTM7Y9QpvPmp++w5ftoJw==
 
 npm-run-path@^4.0.1:
   version "4.0.1"
