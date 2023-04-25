@@ -61,9 +61,10 @@ export function useAccountLogin() {
 
 //退出登录 hooks
 export function useLogout() {
-  const { storeLogout } = useAdminStore()
   const router = useRouter()
-  function handleLogout() {
+  const store = useAdminStore()
+  const { storeLogout } = store
+  const handleLogout = () => {
     showModal('是否要退出登录？').then(() => {
       storeLogout().then(() => {
         router.push('/login')

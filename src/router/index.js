@@ -45,72 +45,72 @@ const routes = [
   }
 ]
 
-// const asyncRoutes = [
-//   {
-//     path: '/',
-//     name: 'index',
-//     component: Index,
-//     meta: {
-//       title: '仪表盘',
-//     },
-//   },
-//   {
-//     path: '/sys/menu/index',
-//     name: 'menu',
-//     component: Menu,
-//     meta: {
-//       title: '菜单管理',
-//     },
-//   },
-//   {
-//     path: '/sys/role/index',
-//     name: 'role',
-//     component: Role,
-//     meta: {
-//       title: '角色管理',
-//     },
-//   },
-//   {
-//     path: '/sys/user/index',
-//     name: 'user',
-//     component: User,
-//     meta: {
-//       title: '用户管理',
-//     },
-//   },
-//   {
-//     path: '/goods/index',
-//     name: 'goods',
-//     component: Goods,
-//     meta: {
-//       title: '商品管理',
-//     },
-//   },
-//   {
-//     path: '/order/index',
-//     name: 'order',
-//     component: Order,
-//     meta: {
-//       title: '订单管理',
-//     },
-//   },
-//   {
-//     path: '/notice/index',
-//     name: 'notice',
-//     component: Notice,
-//     meta: {
-//       title: '通知管理',
-//     },
-//   },
-//   {
-//     path: '/docs/index',
-//     name: 'docs',
-//     component: Docs,
-//     meta: {
-//       title: '接口文档',
-//     },
-//   },
-// ]
+const asyncRoutes = [
+  {
+    path: '/',
+    name: 'index',
+    component: Index,
+    meta: {
+      title: '仪表盘'
+    }
+  },
+  {
+    path: '/sys/menu/index',
+    name: 'menu',
+    component: Menu,
+    meta: {
+      title: '菜单管理'
+    }
+  }
+  //   {
+  //     path: '/sys/role/index',
+  //     name: 'role',
+  //     component: Role,
+  //     meta: {
+  //       title: '角色管理',
+  //     },
+  //   },
+  //   {
+  //     path: '/sys/user/index',
+  //     name: 'user',
+  //     component: User,
+  //     meta: {
+  //       title: '用户管理',
+  //     },
+  //   },
+  //   {
+  //     path: '/goods/index',
+  //     name: 'goods',
+  //     component: Goods,
+  //     meta: {
+  //       title: '商品管理',
+  //     },
+  //   },
+  //   {
+  //     path: '/order/index',
+  //     name: 'order',
+  //     component: Order,
+  //     meta: {
+  //       title: '订单管理',
+  //     },
+  //   },
+  //   {
+  //     path: '/notice/index',
+  //     name: 'notice',
+  //     component: Notice,
+  //     meta: {
+  //       title: '通知管理',
+  //     },
+  //   },
+  //   {
+  //     path: '/docs/index',
+  //     name: 'docs',
+  //     component: Docs,
+  //     meta: {
+  //       title: '接口文档',
+  //     },
+  //   },
+]
 
 export const router = createRouter({
   routes,
