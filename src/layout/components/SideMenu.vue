@@ -3,7 +3,6 @@ const store = useAdminStore()
 const { sideWidth, menus } = storeToRefs(store)
 const router = useRouter()
 const route = useRoute()
-
 // 默认选中当前路由
 const defaultActive = ref(route.path)
 // 是否折叠
